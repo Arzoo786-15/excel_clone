@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width:100vw;
+        }
+        .bg-image{
+            background-image: url('https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg');
+        background-size: contain;
+        }
+.first{
+height: 8rem;
+width: 8rem;
+background-color: aqua;
+position: relative;
+left:9rem;
+border:  2px solid white;
+border-radius: 50%;
+}
+.Second{
+    height: 8rem;
+width: 8rem; 
+background-color: aquamarine;
+position: relative;
+left:6rem;
+border-radius: 50%;
+border:  2px solid white;
+}
+.third{
+    height: 8rem;
+width: 8rem; 
+background-color: azure;
+position: relative;
+left:3rem;
+border-radius: 50%;
+border: 2px solid white;
+}
+.fourth{
+    height: 8rem;
+width: 8rem;  
+background-color: rgb(153, 153, 177);
+border-radius: 50%;
+z-index: 0;
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="first bg-image"></div>
+    <div class="Second bg-image"> </div>
+    <div class="third bg-image"></div>
+    <div class="fourth" style="display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 4rem;">+1</div>
+</div>
+</body>
+</html>
